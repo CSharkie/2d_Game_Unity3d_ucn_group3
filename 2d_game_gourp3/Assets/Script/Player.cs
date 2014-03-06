@@ -3,12 +3,18 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
+
+	[HideInInspector]
+	public bool jump = false;
+	[HideInInspector]
+	public bool facingRight = true;
+
 	public float moveForce = 365f;
 	public float maxSpeed = 5f;
 	public float jumpForce = 10f;
-	public bool jump = false;
-	public bool facingRight = true;
 
+
+	private Transform groundCheck;
 	private bool grounded = true;
 	// Use this for initialization
 	void Start () {
@@ -43,6 +49,10 @@ public class Player : MonoBehaviour {
 
 	void Flip()
 	{
+		facingRight = !facingRight;
 
+		Vector3 theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
 	}
 }
