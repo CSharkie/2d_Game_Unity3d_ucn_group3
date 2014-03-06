@@ -15,14 +15,18 @@ public class Player : MonoBehaviour {
 
 
 	private Transform groundCheck;
-	private bool grounded = true;
-	// Use this for initialization
-	void Start () {
-	
+	private bool grounded = false;
+
+	void Awake()
+	{
+		// Setting up references.
+		groundCheck = transform.Find("groundCheck");
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+
 		if(Input.GetButtonDown("Jump") && grounded)
 			jump = true;
 	}
