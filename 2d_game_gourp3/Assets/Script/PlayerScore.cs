@@ -4,11 +4,8 @@ using System.Collections;
 public class PlayerScore : MonoBehaviour {
 
 	public int score = 0;
-	
-	
 	private Player player;
 	private int previousScore = 0;
-	private int levelScore = 1000;
 
 	void Awake()
 	{
