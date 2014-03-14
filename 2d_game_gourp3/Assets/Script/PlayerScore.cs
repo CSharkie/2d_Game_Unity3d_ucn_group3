@@ -30,6 +30,6 @@ public class PlayerScore : MonoBehaviour {
 	}
 
 	void OnGUI() {
-		GUI.Box (new Rect (1200,72,100,30), "Score: " + score);
+		GUI.Box (new Rect (Screen.width-120,72,100,30), "Score: " + score);
 	}
 }
