@@ -15,7 +15,7 @@ public class StartScreen : MonoBehaviour {
 
 	void OnGUI () 
 	{
-		GUILayout.BeginArea (new Rect (200, 200, 300, 400));
+		GUILayout.BeginArea (new Rect (Screen.width - 1100, Screen.height - 550, 300, 400));
 		GUILayout.Label ("Welcome to the Game !");
 		if( GUILayout.Button ("Start"))
 			Application.LoadLevel("BG");
