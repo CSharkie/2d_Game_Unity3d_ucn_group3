@@ -1,0 +1,21 @@
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvumdshim.dll 9.18.13.3523]
+    Renderer: NVIDIA GeForce GTX 780M         
+    Vendor:   NVIDIA
+    VRAM:     3072 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Default GameObject Tag: Player already registered
+ 
+(Filename:  Line: 68)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Workspace\2d_Game_Unity3d_ucn_group3\2d_game_gourp3\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Workspace\2d_Game_Unity3d_ucn_group3\2d_game_gourp3\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Workspace\2d_Game_Unity3d_ucn_group3\2d_game_gourp3\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Workspace\2d_Game_Unity3d_ucn_group3\2d_game_gourp3\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.077 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
