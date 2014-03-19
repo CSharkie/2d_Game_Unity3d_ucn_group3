@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 9ba1561a428b7427ab7894a3364a942a
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: IDLESpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 729
+        width: 250
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 729
+        width: 247
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 724
+        width: 248
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 723
+        width: 249
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 722
+        width: 246
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 726
+        width: 244
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 723
+        width: 246
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2757
+        y: 725
+        width: 246
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 725
+        width: 248
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 338
+        width: 246
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 341
+        width: 249
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 331
+        width: 248
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 334
+        width: 246
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 325
+        width: 246
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 334
+        width: 244
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 331
+        width: 246
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 332
+        width: 248
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: IDLESpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 334
+        width: 248
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
