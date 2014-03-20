@@ -50,7 +50,7 @@ public class Player : MonoBehaviour {
 
 			jump = false;
 		}
-		anim.SetFloat ("speed", hrizontal * rigidbody2D.velocity.x);
+		anim.SetFloat ("speed", Input.GetAxis ("Horizontal"));
 	}
 
 	void Flip()
