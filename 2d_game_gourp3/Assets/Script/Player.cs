@@ -13,7 +13,7 @@ public class Player : MonoBehaviour {
 	public float maxSpeed = 5f;
 	public float jumpForce = 10f;
 
-	Animator anim;
+	//Animator anim;
 	private Transform groundCheck;
 	private bool grounded = false;
 
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour {
 	{
 		// Setting up references.
 		groundCheck = transform.Find("groundCheck");
-		anim = GetComponent<Animator> ();
+		//anim = GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -50,7 +50,7 @@ public class Player : MonoBehaviour {
 
 			jump = false;
 		}
-		anim.SetFloat ("speed", Input.GetAxis ("Horizontal"));
+		//anim.SetFloat ("speed", Input.GetAxis ("Horizontal"));
 	}
 
 	void Flip()
