@@ -28,7 +28,7 @@ public class PlayerScore : MonoBehaviour {
 		{
 			// increase the spawn and number of mobs
 			// method will be implemented here :)
-			spawner.spawnTime = spawner.spawnTime - 0.5;
+			spawner.spawnTime = spawner.spawnTime - 1;
 		}
 	}
 

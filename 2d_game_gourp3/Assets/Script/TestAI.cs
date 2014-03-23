@@ -23,7 +23,7 @@ public class TestAI : MonoBehaviour {
 	private Transform groundCheck;
 	private bool grounded = false;
 
-	private Score score;
+	private PlayerScore score;
 
 	// Use this for initialization
 	void Start () {
@@ -32,7 +32,7 @@ public class TestAI : MonoBehaviour {
 
 	void Awake()
 	{
-		score = GameObject.Find("Score").GetComponent<Score>();
+		score = GameObject.Find("Score").GetComponent<PlayerScore>();
 	}
 	
 	// Update is called once per frame

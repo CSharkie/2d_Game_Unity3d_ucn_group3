@@ -28,8 +28,8 @@ public class CarrotAnimator : MonoBehaviour {
 		//	fall = false;
 		
 		anim.SetBool ("falling", fall);
-
-		prevPos = transform.position.y;
+		// TODO Fix the compile error :)
+		// prevPos = transform.position.y;
 
 
 	}
