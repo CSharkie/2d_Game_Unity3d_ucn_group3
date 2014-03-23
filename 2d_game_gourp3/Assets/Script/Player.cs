@@ -17,6 +17,8 @@ public class Player : MonoBehaviour {
 	private Transform groundCheck;
 	private bool grounded = false;
 
+	private bool guiEnabled = false;
+
 	void Awake()
 	{
 		// Setting up references.
@@ -30,6 +32,15 @@ public class Player : MonoBehaviour {
 
 		if(Input.GetButtonDown("Jump") && grounded)
 			jump = true;
+
+		if(Input.GetKeyDown("escape")){
+			if(Time.timeScale == 1){
+				Time.timeScale = 0;
+			}
+			else {
+				Time.timeScale = 1;
+			}
+		}
 	}
 
 	void FixedUpdate()

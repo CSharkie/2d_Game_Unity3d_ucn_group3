@@ -23,9 +23,16 @@ public class TestAI : MonoBehaviour {
 	private Transform groundCheck;
 	private bool grounded = false;
 
+	private Score score;
+
 	// Use this for initialization
 	void Start () {
 		groundCheck = transform.Find("groundCheckEnemy");
+	}
+
+	void Awake()
+	{
+		score = GameObject.Find("Score").GetComponent<Score>();
 	}
 	
 	// Update is called once per frame

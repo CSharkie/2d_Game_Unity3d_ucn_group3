@@ -2,10 +2,12 @@
 using System.Collections;
 
 public class PlayerScore : MonoBehaviour {
-
+	
 	public int score = 0;
 	private Player player;
 	private int previousScore = 0;
+
+	private Spawner spawner;
 
 	void Awake()
 	{
@@ -26,6 +28,7 @@ public class PlayerScore : MonoBehaviour {
 		{
 			// increase the spawn and number of mobs
 			// method will be implemented here :)
+			spawner.spawnTime = spawner.spawnTime - 0.5;
 		}
 	}
 
