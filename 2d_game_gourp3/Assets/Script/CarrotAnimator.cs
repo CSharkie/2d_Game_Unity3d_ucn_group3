@@ -4,6 +4,7 @@ using System.Collections;
 public class CarrotAnimator : MonoBehaviour {
 
 	public float speed = 0;
+	public bool fall = false;
 	Vector3 prevPos = Vector3.zero;
 	Animator anim;
 	// Use this for initialization
@@ -17,9 +18,19 @@ public class CarrotAnimator : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		speed = (transform.position - prevPos).magnitude;
+
 		anim.SetFloat ("speed", Mathf.Abs(Input.GetAxis ("Horizontal")));
 		//anim.SetFloat ("speed", speed);
-		prevPos = transform.position;
+
+		//if (prevPos > transform.position.y) {
+		//	fall = true;
+		//} else
+		//	fall = false;
+		
+		anim.SetBool ("falling", fall);
+
+		prevPos = transform.position.y;
+
+
 	}
 }

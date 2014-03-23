@@ -49,61 +49,61 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 46
-        y: 711
-        width: 226
-        height: 343
+        y: 701
+        width: 268
+        height: 367
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: RunSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 429
-        y: 708
-        width: 236
-        height: 343
+        x: 424
+        y: 701
+        width: 268
+        height: 367
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: RunSpriteSheet_2
       rect:
         serializedVersion: 2
         x: 819
         y: 701
-        width: 249
-        height: 353
+        width: 268
+        height: 367
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: RunSpriteSheet_3
       rect:
         serializedVersion: 2
         x: 1192
-        y: 701
-        width: 266
-        height: 354
+        y: 706
+        width: 268
+        height: 367
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: RunSpriteSheet_4
       rect:
         serializedVersion: 2
         x: 1581
-        y: 699
-        width: 264
-        height: 356
+        y: 701
+        width: 268
+        height: 367
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: RunSpriteSheet_5
       rect:
         serializedVersion: 2
         x: 1960
-        y: 698
-        width: 266
-        height: 366
+        y: 701
+        width: 268
+        height: 367
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: RunSpriteSheet_6
       rect:
         serializedVersion: 2
         x: 2370
-        y: 698
+        y: 701
         width: 268
         height: 367
       alignment: 0
@@ -112,28 +112,28 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 60
-        y: 328
-        width: 228
-        height: 349
+        y: 321
+        width: 268
+        height: 367
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: RunSpriteSheet_8
       rect:
         serializedVersion: 2
         x: 450
-        y: 323
-        width: 245
-        height: 354
+        y: 321
+        width: 268
+        height: 367
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: RunSpriteSheet_9
       rect:
         serializedVersion: 2
-        x: 819
+        x: 824
         y: 321
-        width: 257
-        height: 356
+        width: 268
+        height: 367
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 
