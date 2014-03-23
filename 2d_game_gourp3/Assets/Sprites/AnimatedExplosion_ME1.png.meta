@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: be75ffd07103c47f2b61ed664d77ed54
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: AnimatedExplosion_ME1_0
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 42
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_1
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 778
+        width: 117
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_2
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 33
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_3
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 27
+        width: 117
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 776
+        width: 117.099998
+        height: 111.400002
+      alignment: 0
+      pivot: {x: .50000006, y: .500000119}
+    - name: AnimatedExplosion_ME1_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 776
+        width: 117
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_6
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 776
+        width: 117
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 651
+        width: 119
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_8
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 651
+        width: 116
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_9
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 523
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 529
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_11
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 402
+        width: 117
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_12
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 403
+        width: 116
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 286
+        width: 117
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: AnimatedExplosion_ME1_14
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 285
+        width: 118
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
