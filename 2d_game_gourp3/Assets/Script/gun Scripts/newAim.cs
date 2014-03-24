@@ -3,11 +3,11 @@ using System.Collections;
 
 public class newAim : MonoBehaviour {
 	public float angle=0;
-	private Player player;
+	private newPlayer player;
 	private bool fliped=false;
 	void Start () {
 		
-		player = transform.root.GetComponent<Player>();
+		player = transform.root.GetComponent<newPlayer>();
 	}
 	
 	void Update () 
