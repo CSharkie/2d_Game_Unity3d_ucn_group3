@@ -22,13 +22,13 @@ public class newAim : MonoBehaviour {
 		if (mouse_pos.x > 0 && player.facingRight == false)
 		{
 			// ... flip the player.
-			player.Flip ();
+	//		player.Flip ();
 			fliped=true;
 		}
 		else if(mouse_pos.x < 0 && player.facingRight==true)
 			
 		{// ... flip the player.
-			player.Flip();
+//			player.Flip();
 			fliped=true;
 		}
 		if (mouse_pos.x>0 && !fliped) 

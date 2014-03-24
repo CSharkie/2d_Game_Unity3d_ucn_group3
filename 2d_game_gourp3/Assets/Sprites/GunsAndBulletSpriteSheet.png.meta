@@ -63,5 +63,14 @@ TextureImporter:
         height: 70
       alignment: 0
       pivot: {x: .5, y: .5}
+    - name: GunsAndBulletSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 68
+        width: 86
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 
